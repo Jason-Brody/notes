@@ -1,0 +1,54 @@
+apply plugin: 'jacoco'
+
+
+buildscript{
+    repositories{
+        jcenter()
+    }
+    dependencies{
+        classpath 'org.jacoco:org.jacoco.ant:0.7.9'
+    }
+}
+
+allprojects {
+    repositories {
+        jcenter()
+    }
+}
+
+def getPath(def arg){
+    return '../src/'+arg+'/java'
+}
+
+def coverageSourceDirs = [
+        getPath('main'),getPath('debug'),getPath('i18n'),getPath('musically')
+]
+
+task jacocoTestReport(type: JacocoReport) {
+
+    print(coverageSourceDirs)
+    group = "Reporting"
+    description = "Generate Jacoco coverage reports after running tests."
+    reports {
+        xml.enabled = true
+        html.enabled = true
+    }
+    classDirectories = fileTree(
+            dir: './build/intermediates/classes/musically/debug',
+            excludes: ['**/R*.class',
+                       '**/*$InjectAdapter.class',
+                       '**/*$ModuleAdapter.class',
+                       '**/*$ViewInjector*.class'
+            ])
+    sourceDirectories = files(coverageSourceDirs)
+    executionData = files("$buildDir/outputs/code-coverage/connected/coverage.ec")
+    print(executionData)
+    doFirst {
+        new File("$buildDir/intermediates/classes/").eachFileRecurse { file ->
+            if (file.name.contains('$$')) {
+                file.renameTo(file.path.replace('$$', '$'))
+            }
+        }
+    }
+}
+

@@ -1,0 +1,50 @@
+{
+    "PORTS": [{
+        "PORT": "4200",
+        "DNS_TIMERTT_FROM_3WHS(S->D)": {
+            "VALUE": 1.2222222,
+            "UNIT": "MS",
+            "PACKAGE_COUNT": 10
+        },
+        "RTT_FULL_SZ_MIN(S->D)": {
+            "VALUE": 1.3211111,
+            "UNIT": "MS",
+            "PACKAGE_COUNT": 7
+        },
+        "RTT_FULL_SZ_MAX(S->D)": {
+            "VALUE": 2.1222222,
+            "UNIT": "MS",
+            "PACKAGE_COUNT": 9
+        }
+    },{
+        "PORT": "4300",
+        "DNS_TIMERTT_FROM_3WHS(S->D)": {
+            "VALUE": 1.4222222,
+            "UNIT": "MS",
+            "PACKAGE_COUNT": 7
+        },
+        "RTT_FULL_SZ_MIN(S->D)": {
+            "VALUE": 1.3211111,
+            "UNIT": "MS",
+            "PACKAGE_COUNT": 7
+        },
+        "RTT_FULL_SZ_MAX(S->D)": {
+            "VALUE": 2.0222222,
+            "UNIT": "MS",
+            "PACKAGE_COUNT": 9
+        }
+    }],
+
+
+    "DNS_TIMERTT_FROM_3WHS(S->D)":[{
+        "PORT": 4200,
+        "VALUE": 1.2222222,
+        "UNIT": "MS",
+        "PACKAGE_COUNT": 10
+    },{
+        "PORT": 4300,
+        "VALUE": 1.4222222,
+        "UNIT": "MS",
+        "PACKAGE_COUNT": 7
+    }]
+}

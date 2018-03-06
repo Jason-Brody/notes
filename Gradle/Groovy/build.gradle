@@ -1,0 +1,46 @@
+def projectVersion = '2.0' //局部变量，作用域为当前文件
+project.ext.version = '3.0' //作用域为全局,project可省略
+
+project.task('Task1')
+
+task("Task2")
+
+task "Task3"
+
+task Task4
+
+Task4.description = 'The description of task 4'
+
+Task4.doLast{
+    println("Task 4 starts")
+}
+
+Task3 << {println "This is task3"}
+Task3.description = "Task 3 for version: $ext.version" //使用全局变量version,省略project
+
+task Task5 << {println "This is task5"}
+
+Task5 << {println "This is another task5"}
+
+
+task Task6 {
+    description "This is task 6 with version: $projectVersion"
+    doLast{
+        println "Do Last Task 6"
+    }
+    doFirst{
+        println "Do First Task 6"
+    }
+   
+}
+
+Task6.doFirst{
+    println "Do another first Task 6"
+}
+
+Task6 << {println "Say hi 6"}
+
+Task5.dependsOn Task6
+
+
+
