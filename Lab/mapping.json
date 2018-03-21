@@ -1,0 +1,2747 @@
+{
+    "monitor_log": {
+        "_all": {
+            "enabled": false
+        },
+        "date_detection": false,
+        "properties": {
+            "timing_dns": {
+                "type": "double"
+            },
+            "tracecode": {
+                "index": "not_analyzed",
+                "type": "string"
+            },
+            "data": {
+                "properties": {
+                    "exception": {
+                        "type": "string"
+                    },
+                    "app_language": {
+                        "type": "string"
+                    },
+                    "filter_name": {
+                        "type": "string"
+                    },
+                    "net_request_queue": {
+                        "type": "string"
+                    },
+                    "errorDomain": {
+                        "type": "string"
+                    },
+                    "v27_entry_group_meta": {
+                        "type": "string"
+                    },
+                    "video_status": {
+                        "type": "long"
+                    },
+                    "Vpwp-Rawkey": {
+                        "type": "string"
+                    },
+                    "mediaId": {
+                        "type": "long"
+                    },
+                    "path": {
+                        "type": "string"
+                    },
+                    "invalid_url": {
+                        "type": "string"
+                    },
+                    "original_error_domain": {
+                        "type": "string"
+                    },
+                    "errorDetail": {
+                        "type": "string"
+                    },
+                    "firstSegmentLength": {
+                        "type": "string"
+                    },
+                    "referString": {
+                        "type": "string"
+                    },
+                    "v1_post_detail_content": {
+                        "type": "string"
+                    },
+                    "internet_speed": {
+                        "type": "long"
+                    },
+                    "total_file_size": {
+                        "type": "long"
+                    },
+                    "cache_control": {
+                        "type": "string"
+                    },
+                    "db_duration": {
+                        "type": "long"
+                    },
+                    "old_app_iid": {
+                        "type": "string"
+                    },
+                    "GT32": {
+                        "type": "long"
+                    },
+                    "iesve_record_start_time": {
+                        "type": "string"
+                    },
+                    "version": {
+                        "type": "long"
+                    },
+                    "iesve_import_crop_file_duration": {
+                        "type": "string"
+                    },
+                    "outputWavFile": {
+                        "type": "string"
+                    },
+                    "videoPath": {
+                        "type": "string"
+                    },
+                    "create_version": {
+                        "type": "string"
+                    },
+                    "size": {
+                        "type": "long"
+                    },
+                    "total_duration": {
+                        "type": "double"
+                    },
+                    "filter_id": {
+                        "type": "long"
+                    },
+                    "iesve_import_crop_file_resolution": {
+                        "type": "string"
+                    },
+                    "vendor_id": {
+                        "type": "string"
+                    },
+                    "error_mid": {
+                        "index": "not_analyzed",
+                        "type": "string"
+                    },
+                    "Origin-Url": {
+                        "type": "string"
+                    },
+                    "errorPrompts": {
+                        "type": "string"
+                    },
+                    "sdk": {
+                        "type": "long"
+                    },
+                    "fantasy_video_live_play_heartbeat": {
+                        "type": "string"
+                    },
+                    "parse_to_db": {
+                        "type": "long"
+                    },
+                    "timing_isSocketReused": {
+                        "type": "boolean"
+                    },
+                    "timing_send": {
+                        "type": "long"
+                    },
+                    "apiType": {
+                        "type": "string"
+                    },
+                    "extraInfo": {
+                        "type": "string"
+                    },
+                    "app_vid": {
+                        "type": "string"
+                    },
+                    "average": {
+                        "type": "long"
+                    },
+                    "GT64": {
+                        "type": "long"
+                    },
+                    "process_time": {
+                        "type": "long"
+                    },
+                    "errorHost": {
+                        "type": "string"
+                    },
+                    "network_type_changed": {
+                        "type": "boolean"
+                    },
+                    "sdcard_size": {
+                        "type": "string"
+                    },
+                    "result": {
+                        "type": "string"
+                    },
+                    "adid": {
+                        "type": "long"
+                    },
+                    "iesve_composition_audio_decode_mode": {
+                        "type": "string"
+                    },
+                    "server_status_code": {
+                        "type": "long"
+                    },
+                    "count_rate": {
+                        "type": "long"
+                    },
+                    "video_source": {
+                        "type": "long"
+                    },
+                    "IESTaskExecutePhaseDuringLaunch": {
+                        "type": "long"
+                    },
+                    "compose_hard_encode": {
+                        "type": "string"
+                    },
+                    "success_mid": {
+                        "type": "string"
+                    },
+                    "sdcard_available_size": {
+                        "type": "string"
+                    },
+                    "marked_times": {
+                        "type": "string"
+                    },
+                    "throwable": {
+                        "type": "string"
+                    },
+                    "web_type": {
+                        "type": "boolean"
+                    },
+                    "fileInfo": {
+                        "type": "string"
+                    },
+                    "patch_md5": {
+                        "type": "string"
+                    },
+                    "userId": {
+                        "type": "long"
+                    },
+                    "app_name": {
+                        "type": "string"
+                    },
+                    "z": {
+                        "type": "string"
+                    },
+                    "validity": {
+                        "type": "string"
+                    },
+                    "network_type": {
+                        "type": "long"
+                    },
+                    "file_path": {
+                        "type": "string"
+                    },
+                    "User-Agent": {
+                        "type": "string"
+                    },
+                    "fantasy_video_live_leave": {
+                        "type": "string"
+                    },
+                    "reversePath": {
+                        "type": "string"
+                    },
+                    "status_monitor": {
+                        "type": "long"
+                    },
+                    "app_iid": {
+                        "type": "string"
+                    },
+                    "draft_context_id": {
+                        "type": "string"
+                    },
+                    "user_info": {
+                        "type": "string"
+                    },
+                    "client_ip": {
+                        "type": "string"
+                    },
+                    "search_word": {
+                        "type": "string"
+                    },
+                    "imageType": {
+                        "type": "string"
+                    },
+                    "sqlite_sequence": {
+                        "type": "string"
+                    },
+                    "iesve_record_video_frame_encode_time": {
+                        "type": "string"
+                    },
+                    "ret": {
+                        "type": "string"
+                    },
+                    "iesve_composition_video_encode_time": {
+                        "type": "string"
+                    },
+                    "completeReadResponse": {
+                        "type": "long"
+                    },
+                    "screen_width": {
+                        "type": "string"
+                    },
+                    "fantasy": {
+                        "type": "string"
+                    },
+                    "internal_size": {
+                        "type": "string"
+                    },
+                    "timing_ssl": {
+                        "type": "long"
+                    },
+                    "count": {
+                        "type": "long"
+                    },
+                    "et": {
+                        "type": "long"
+                    },
+                    "follow_user": {
+                        "type": "string"
+                    },
+                    "adId": {
+                        "type": "long"
+                    },
+                    "post_list_size": {
+                        "type": "string"
+                    },
+                    "success": {
+                        "type": "long"
+                    },
+                    "v2_article_mutable_fields": {
+                        "type": "string"
+                    },
+                    "error_code": {
+                        "type": "long"
+                    },
+                    "response_code": {
+                        "type": "long"
+                    },
+                    "gecko_id": {
+                        "type": "string"
+                    },
+                    "challenge_id": {
+                        "type": "string"
+                    },
+                    "new_app_iid": {
+                        "type": "string"
+                    },
+                    "Vpwp-Mp-Range": {
+                        "type": "string"
+                    },
+                    "duration_rate": {
+                        "type": "long"
+                    },
+                    "isStatusError": {
+                        "type": "boolean"
+                    },
+                    "iesve_composition_file_duration": {
+                        "type": "string"
+                    },
+                    "title": {
+                        "type": "string"
+                    },
+                    "content": {
+                        "type": "string"
+                    },
+                    "openudid": {
+                        "type": "string"
+                    },
+                    "duration": {
+                        "type": "long"
+                    },
+                    "cookie_list": {
+                        "type": "string"
+                    },
+                    "cache_percent": {
+                        "type": "long"
+                    },
+                    "Final-Url": {
+                        "type": "string"
+                    },
+                    "musicPath": {
+                        "type": "string"
+                    },
+                    "is_draft": {
+                        "type": "string"
+                    },
+                    "iap_id": {
+                        "type": "string"
+                    },
+                    "Content-Length": {
+                        "type": "long"
+                    },
+                    "final_video_size": {
+                        "type": "string"
+                    },
+                    "Content-Type": {
+                        "type": "string"
+                    },
+                    "trace_cache": {
+                        "type": "string"
+                    },
+                    "chunkSize": {
+                        "type": "long"
+                    },
+                    "fps": {
+                        "type": "double"
+                    },
+                    "length": {
+                        "type": "string"
+                    },
+                    "label": {
+                        "type": "string"
+                    },
+                    "message": {
+                        "type": "string"
+                    },
+                    "errorResponse": {
+                        "type": "string"
+                    },
+                    "tracks": {
+                        "type": "string"
+                    },
+                    "iesve_composition_bit_rate": {
+                        "type": "string"
+                    },
+                    "relation_schedule": {
+                        "type": "string"
+                    },
+                    "serverCode": {
+                        "type": "long"
+                    },
+                    "videoHardEncode": {
+                        "type": "boolean"
+                    },
+                    "group_id": {
+                        "type": "long"
+                    },
+                    "service": {
+                        "index": "not_analyzed",
+                        "type": "string"
+                    },
+                    "publish": {
+                        "type": "long"
+                    },
+                    "timing_connect": {
+                        "type": "long"
+                    },
+                    "prompt": {
+                        "type": "string"
+                    },
+                    "time_machine_loc": {
+                        "type": "long"
+                    },
+                    "duration_value": {
+                        "type": "long"
+                    },
+                    "iesve_composition_video_decode_time": {
+                        "type": "string"
+                    },
+                    "iesve_composition_fps": {
+                        "type": "string"
+                    },
+                    "update_item": {
+                        "type": "string"
+                    },
+                    "responseBack": {
+                        "type": "long"
+                    },
+                    "aggr_type": {
+                        "type": "long"
+                    },
+                    "rid": {
+                        "type": "long"
+                    },
+                    "time_interval": {
+                        "type": "double"
+                    },
+                    "success_upload_url": {
+                        "type": "string"
+                    },
+                    "wifi_only": {
+                        "type": "boolean"
+                    },
+                    "encode_duration": {
+                        "type": "double"
+                    },
+                    "hardEncode": {
+                        "type": "string"
+                    },
+                    "internal_available_size": {
+                        "type": "string"
+                    },
+                    "timing_receivedResponseContentLength": {
+                        "type": "long"
+                    },
+                    "action": {
+                        "type": "string"
+                    },
+                    "finalHost": {
+                        "type": "string"
+                    },
+                    "id": {
+                        "type": "string"
+                    },
+                    "video_bitrate": {
+                        "type": "long"
+                    },
+                    "db_to_show": {
+                        "type": "long"
+                    },
+                    "order": {
+                        "type": "long"
+                    },
+                    "has_retryed": {
+                        "type": "long"
+                    },
+                    "cover_size": {
+                        "type": "string"
+                    },
+                    "cookie": {
+                        "type": "string"
+                    },
+                    "failRate": {
+                        "type": "long"
+                    },
+                    "ip": {
+                        "index": "not_analyzed",
+                        "type": "string"
+                    },
+                    "iesve_record_stop_time": {
+                        "type": "string"
+                    },
+                    "version_code": {
+                        "type": "long"
+                    },
+                    "user_id": {
+                        "type": "string"
+                    },
+                    "impression": {
+                        "type": "string"
+                    },
+                    "diagnoe_time": {
+                        "type": "double"
+                    },
+                    "status": {
+                        "type": "long"
+                    },
+                    "process_speed": {
+                        "type": "double"
+                    },
+                    "averageFrameTime": {
+                        "type": "long"
+                    },
+                    "Max": {
+                        "type": "long"
+                    },
+                    "city": {
+                        "type": "string"
+                    },
+                    "URL": {
+                        "type": "string"
+                    },
+                    "bitrate_set": {
+                        "properties": {
+                            "bit_rate": {
+                                "type": "long"
+                            },
+                            "quality_type": {
+                                "type": "long"
+                            },
+                            "gear_name": {
+                                "type": "string"
+                            }
+                        }
+                    },
+                    "tt_upload_step": {
+                        "type": "string"
+                    },
+                    "file": {
+                        "type": "string"
+                    },
+                    "audio_location": {
+                        "type": "long"
+                    },
+                    "background_duration": {
+                        "type": "long"
+                    },
+                    "requestId": {
+                        "type": "string"
+                    },
+                    "playerType": {
+                        "type": "string"
+                    },
+                    "camera": {
+                        "type": "boolean"
+                    },
+                    "video_sizes": {
+                        "type": "string"
+                    },
+                    "isSuccess": {
+                        "type": "string"
+                    },
+                    "log_id": {
+                        "index": "not_analyzed",
+                        "type": "string"
+                    },
+                    "videoFilePath": {
+                        "type": "string"
+                    },
+                    "user_aweme_count": {
+                        "type": "string"
+                    },
+                    "iesve_audio_decode_mode": {
+                        "type": "string"
+                    },
+                    "end_time": {
+                        "type": "long"
+                    },
+                    "old_app_did": {
+                        "type": "string"
+                    },
+                    "plugin_name": {
+                        "type": "string"
+                    },
+                    "timing_isFromProxy": {
+                        "type": "boolean"
+                    },
+                    "uri": {
+                        "index": "not_analyzed",
+                        "type": "string"
+                    },
+                    "url": {
+                        "index": "not_analyzed",
+                        "type": "string"
+                    },
+                    "errorUrl": {
+                        "index": "not_analyzed",
+                        "type": "string"
+                    },
+                    "iesve_record_audio_encode_mode": {
+                        "type": "string"
+                    },
+                    "item_action": {
+                        "type": "string"
+                    },
+                    "iesve_composition_resolution": {
+                        "type": "string"
+                    },
+                    "before_IESTaskExecutePhasePostLaunch": {
+                        "type": "long"
+                    },
+                    "extra_value": {
+                        "properties": {
+                            "process_speed": {
+                                "type": "double"
+                            },
+                            "app_language": {
+                                "type": "string"
+                            },
+                            "response_code": {
+                                "type": "long"
+                            },
+                            "upload_speed": {
+                                "type": "double"
+                            },
+                            "errorDomain": {
+                                "type": "string"
+                            },
+                            "errorCode": {
+                                "index": "not_analyzed",
+                                "type": "string"
+                            },
+                            "isStatusError": {
+                                "type": "boolean"
+                            },
+                            "mediaId": {
+                                "type": "long"
+                            },
+                            "roleType": {
+                                "type": "string"
+                            },
+                            "type": {
+                                "type": "long"
+                            },
+                            "uploadDuration": {
+                                "type": "double"
+                            },
+                            "process_time": {
+                                "type": "double"
+                            },
+                            "platform": {
+                                "type": "string"
+                            },
+                            "playUrl": {
+                                "type": "string"
+                            },
+                            "duration": {
+                                "type": "long"
+                            },
+                            "videoUri": {
+                                "type": "string"
+                            },
+                            "urls": {
+                                "type": "string"
+                            },
+                            "videoUrl": {
+                                "type": "string"
+                            },
+                            "musicPath": {
+                                "type": "string"
+                            },
+                            "error_desc": {
+                                "type": "string"
+                            },
+                            "extra": {
+                                "type": "string"
+                            },
+                            "lineType": {
+                                "type": "string"
+                            },
+                            "playerType": {
+                                "type": "string"
+                            },
+                            "tag": {
+                                "type": "string"
+                            },
+                            "cocosStarted": {
+                                "type": "boolean"
+                            },
+                            "networkType": {
+                                "type": "string"
+                            },
+                            "msg_user_id": {
+                                "type": "long"
+                            },
+                            "chunkSize": {
+                                "type": "long"
+                            },
+                            "errorDesc": {
+                                "type": "string"
+                            },
+                            "recordDuration": {
+                                "type": "long"
+                            },
+                            "gift_id": {
+                                "type": "long"
+                            },
+                            "mediaType": {
+                                "type": "string"
+                            },
+                            "label": {
+                                "type": "string"
+                            },
+                            "cocosStatus": {
+                                "type": "long"
+                            },
+                            "userId": {
+                                "type": "long"
+                            },
+                            "version": {
+                                "type": "long"
+                            },
+                            "url": {
+                                "type": "string"
+                            },
+                            "isChunk": {
+                                "type": "boolean"
+                            },
+                            "app_time": {
+                                "type": "double"
+                            },
+                            "errorUrl": {
+                                "type": "string"
+                            },
+                            "fileSize": {
+                                "type": "long"
+                            },
+                            "service": {
+                                "type": "string"
+                            },
+                            "errorRawDesc": {
+                                "type": "string"
+                            },
+                            "msg_type": {
+                                "type": "string"
+                            },
+                            "music_id": {
+                                "type": "string"
+                            },
+                            "error_code": {
+                                "type": "long"
+                            },
+                            "enter_room_type": {
+                                "type": "string"
+                            },
+                            "sdk": {
+                                "type": "long"
+                            }
+                        }
+                    },
+                    "feedType": {
+                        "type": "string"
+                    },
+                    "iesve_composition_video_encode_mode": {
+                        "type": "string"
+                    },
+                    "failed_count": {
+                        "type": "long"
+                    },
+                    "maxDuration": {
+                        "type": "long"
+                    },
+                    "md5": {
+                        "type": "string"
+                    },
+                    "app_uid": {
+                        "type": "string"
+                    },
+                    "upload_log": {
+                        "type": "string"
+                    },
+                    "iesve_record_video_preview_resolution": {
+                        "type": "string"
+                    },
+                    "is_preload": {
+                        "type": "boolean"
+                    },
+                    "timing_waiting": {
+                        "type": "long"
+                    },
+                    "pid": {
+                        "type": "long"
+                    },
+                    "IESTaskExecutePhasePreLaunch": {
+                        "type": "long"
+                    },
+                    "iesve_composition_audio_decode_time": {
+                        "type": "string"
+                    },
+                    "new_app_did": {
+                        "type": "string"
+                    },
+                    "prefer_view_type": {
+                        "type": "long"
+                    },
+                    "download": {
+                        "type": "boolean"
+                    },
+                    "withMusic": {
+                        "type": "string"
+                    },
+                    "library_name": {
+                        "type": "string"
+                    },
+                    "original_json": {
+                        "type": "string"
+                    },
+                    "stickers": {
+                        "type": "string"
+                    },
+                    "iesve_video_decode_mode": {
+                        "type": "string"
+                    },
+                    "currPage": {
+                        "type": "string"
+                    },
+                    "v38_post": {
+                        "type": "string"
+                    },
+                    "wavFile": {
+                        "type": "string"
+                    },
+                    "downloadSpeed": {
+                        "type": "long"
+                    },
+                    "error_source": {
+                        "type": "string"
+                    },
+                    "PreLaunch": {
+                        "type": "long"
+                    },
+                    "Range": {
+                        "type": "string"
+                    },
+                    "v30_category_list": {
+                        "type": "string"
+                    },
+                    "license": {
+                        "type": "string"
+                    },
+                    "task": {
+                        "type": "string"
+                    },
+                    "logExtra": {
+                        "type": "string"
+                    },
+                    "before_PreLaunch": {
+                        "type": "long"
+                    },
+                    "nt": {
+                        "type": "long"
+                    },
+                    "encode_time": {
+                        "type": "double"
+                    },
+                    "Cache-Length": {
+                        "type": "long"
+                    },
+                    "total": {
+                        "type": "long"
+                    },
+                    "app_did": {
+                        "type": "string"
+                    },
+                    "audio_percent": {
+                        "type": "string"
+                    },
+                    "effects_count": {
+                        "type": "long"
+                    },
+                    "current_mem": {
+                        "type": "double"
+                    },
+                    "extra": {
+                        "type": "string"
+                    },
+                    "lable": {
+                        "type": "string"
+                    },
+                    "IESTaskExecutePhasePostLaunch": {
+                        "type": "long"
+                    },
+                    "log_event": {
+                        "type": "string"
+                    },
+                    "iesve_composition_audio_encode_time": {
+                        "type": "string"
+                    },
+                    "net_to_parse": {
+                        "type": "long"
+                    },
+                    "article_category": {
+                        "type": "string"
+                    },
+                    "retryCount": {
+                        "type": "long"
+                    },
+                    "iesve_import_source_file_resolution": {
+                        "type": "string"
+                    },
+                    "isChunk": {
+                        "type": "boolean"
+                    },
+                    "leave_type": {
+                        "type": "string"
+                    },
+                    "fragment_info": {
+                        "type": "string"
+                    },
+                    "requestEnd": {
+                        "type": "long"
+                    },
+                    "retryType": {
+                        "type": "string"
+                    },
+                    "retryIndex": {
+                        "type": "long"
+                    },
+                    "reason": {
+                        "type": "string"
+                    },
+                    "v27_entry_group": {
+                        "type": "string"
+                    },
+                    "audio_status": {
+                        "type": "long"
+                    },
+                    "is_bitrate": {
+                        "type": "string"
+                    },
+                    "is_prefetch": {
+                        "type": "long"
+                    },
+                    "materialID": {
+                        "type": "string"
+                    },
+                    "outputFile": {
+                        "type": "string"
+                    },
+                    "segment_count": {
+                        "type": "long"
+                    },
+                    "camera_status": {
+                        "type": "long"
+                    },
+                    "uri_path": {
+                        "type": "string"
+                    },
+                    "fragmentInfoLoss": {
+                        "type": "long"
+                    },
+                    "cahce_size": {
+                        "type": "long"
+                    },
+                    "requestStart": {
+                        "type": "long"
+                    },
+                    "fetch_url_retry_count": {
+                        "type": "long"
+                    },
+                    "iesve_record_resolution": {
+                        "type": "string"
+                    },
+                    "net_diagnose_timeout": {
+                        "type": "string"
+                    },
+                    "api": {
+                        "type": "string"
+                    },
+                    "dropped_frames": {
+                        "type": "long"
+                    },
+                    "iesve_composition_file_size": {
+                        "type": "string"
+                    },
+                    "taskID": {
+                        "type": "string"
+                    },
+                    "height": {
+                        "type": "string"
+                    },
+                    "item_action_v3": {
+                        "type": "string"
+                    },
+                    "iesve_record_switch_camera_time": {
+                        "type": "string"
+                    },
+                    "misc_kv": {
+                        "type": "string"
+                    },
+                    "camera_offset": {
+                        "type": "long"
+                    },
+                    "completed": {
+                        "type": "long"
+                    },
+                    "iesve_composition_video_decode_mode": {
+                        "type": "string"
+                    },
+                    "timing_wait": {
+                        "type": "long"
+                    },
+                    "audioPath": {
+                        "type": "string"
+                    },
+                    "quality": {
+                        "type": "string"
+                    },
+                    "tiktok_challenge_taskid": {
+                        "type": "string"
+                    },
+                    "statusCode": {
+                        "type": "long"
+                    },
+                    "log_config_retry": {
+                        "type": "long"
+                    },
+                    "activity": {
+                        "type": "string"
+                    },
+                    "original_response": {
+                        "type": "string"
+                    },
+                    "tiktok_challenge_groupid": {
+                        "type": "string"
+                    },
+                    "videoUri": {
+                        "type": "string"
+                    },
+                    "current": {
+                        "type": "string"
+                    },
+                    "before_IESTaskExecutePhaseRunLoopIdle": {
+                        "type": "long"
+                    },
+                    "cancled": {
+                        "type": "long"
+                    },
+                    "iesve_record_video_encode_mode": {
+                        "type": "string"
+                    },
+                    "isViewOnPresent": {
+                        "type": "boolean"
+                    },
+                    "audioFileExists": {
+                        "type": "string"
+                    },
+                    "videoUrl": {
+                        "type": "string"
+                    },
+                    "voice_volume": {
+                        "type": "long"
+                    },
+                    "errorReason": {
+                        "type": "string"
+                    },
+                    "upload_error_code": {
+                        "type": "string"
+                    },
+                    "audio_type": {
+                        "type": "long"
+                    },
+                    "audio": {
+                        "type": "boolean"
+                    },
+                    "retry_type": {
+                        "type": "string"
+                    },
+                    "timestamp": {
+                        "format": "strict_date_optional_time||epoch_millis",
+                        "type": "date"
+                    },
+                    "android_metadata": {
+                        "type": "string"
+                    },
+                    "image_size": {
+                        "type": "long"
+                    },
+                    "iesve_import_crop_time": {
+                        "type": "string"
+                    },
+                    "DuringLaunch": {
+                        "type": "long"
+                    },
+                    "gesture_to_net": {
+                        "type": "long"
+                    },
+                    "changeStep": {
+                        "type": "string"
+                    },
+                    "input_file": {
+                        "type": "string"
+                    },
+                    "aweme_id": {
+                        "type": "string"
+                    },
+                    "uploadURL": {
+                        "type": "string"
+                    },
+                    "sig_hash": {
+                        "type": "string"
+                    },
+                    "progress": {
+                        "type": "float"
+                    },
+                    "trace_code": {
+                        "index": "not_analyzed",
+                        "type": "string"
+                    },
+                    "file_length": {
+                        "type": "long"
+                    },
+                    "to": {
+                        "type": "string"
+                    },
+                    "before_RunLoopIdle": {
+                        "type": "long"
+                    },
+                    "netWorkQuality": {
+                        "type": "string"
+                    },
+                    "original_error_code": {
+                        "type": "string"
+                    },
+                    "sourceId": {
+                        "type": "string"
+                    },
+                    "final_duration": {
+                        "type": "double"
+                    },
+                    "remoteIP": {
+                        "type": "string"
+                    },
+                    "time_machine": {
+                        "type": "long"
+                    },
+                    "bitrate": {
+                        "type": "string"
+                    },
+                    "source": {
+                        "type": "string"
+                    },
+                    "tiktok_cache_path": {
+                        "type": "string"
+                    },
+                    "iesve_record_frame_rate": {
+                        "type": "string"
+                    },
+                    "before_DuringLaunch": {
+                        "type": "long"
+                    },
+                    "subscribed_video_pgc_user": {
+                        "type": "string"
+                    },
+                    "block_count": {
+                        "type": "long"
+                    },
+                    "httpCode": {
+                        "type": "long"
+                    },
+                    "pre": {
+                        "type": "long"
+                    },
+                    "sticker_name": {
+                        "type": "string"
+                    },
+                    "http_status_code": {
+                        "type": "string"
+                    },
+                    "iesve_import_generate_thumbnail_time": {
+                        "type": "string"
+                    },
+                    "video_quality": {
+                        "type": "string"
+                    },
+                    "is_cache": {
+                        "type": "long"
+                    },
+                    "netClientType": {
+                        "type": "string"
+                    },
+                    "user_login_status": {
+                        "type": "boolean"
+                    },
+                    "mediaType": {
+                        "type": "string"
+                    },
+                    "forum_item": {
+                        "type": "string"
+                    },
+                    "sync": {
+                        "type": "boolean"
+                    },
+                    "use_sdk": {
+                        "type": "long"
+                    },
+                    "start_time": {
+                        "type": "long"
+                    },
+                    "v27_entry": {
+                        "type": "string"
+                    },
+                    "iesve_composition_audio_encode_mode": {
+                        "type": "string"
+                    },
+                    "timing_total": {
+                        "type": "long"
+                    },
+                    "data_loaded": {
+                        "type": "long"
+                    },
+                    "msg_type": {
+                        "type": "string"
+                    },
+                    "strategy_status": {
+                        "type": "long"
+                    },
+                    "before_IESTaskExecutePhasePreLaunch": {
+                        "type": "long"
+                    },
+                    "feed_click_duration": {
+                        "type": "long"
+                    },
+                    "PostLaunch": {
+                        "type": "long"
+                    },
+                    "end_type": {
+                        "type": "string"
+                    },
+                    "redirect_urls": {
+                        "type": "string"
+                    },
+                    "iesve_record_render_average_time": {
+                        "type": "string"
+                    },
+                    "app_network_type": {
+                        "type": "string"
+                    },
+                    "speed": {
+                        "type": "long"
+                    },
+                    "plugin_duration": {
+                        "type": "string"
+                    },
+                    "app_udid": {
+                        "type": "string"
+                    },
+                    "callingActivity": {
+                        "type": "string"
+                    },
+                    "requestDuration": {
+                        "type": "double"
+                    },
+                    "imageUrl": {
+                        "type": "string"
+                    },
+                    "audio_length": {
+                        "type": "long"
+                    },
+                    "netWorkSpeeds": {
+                        "type": "string"
+                    },
+                    "is_refresh": {
+                        "type": "long"
+                    },
+                    "net_diagnose_log": {
+                        "type": "string"
+                    },
+                    "networkType": {
+                        "index": "not_analyzed",
+                        "type": "string"
+                    },
+                    "videoFileExists": {
+                        "type": "string"
+                    },
+                    "msg_user_id": {
+                        "type": "long"
+                    },
+                    "v30_essay": {
+                        "type": "string"
+                    },
+                    "recordDuration": {
+                        "type": "long"
+                    },
+                    "file_name": {
+                        "type": "string"
+                    },
+                    "inputAudioFileSize": {
+                        "type": "long"
+                    },
+                    "rowId": {
+                        "type": "string"
+                    },
+                    "errorExtra": {
+                        "type": "long"
+                    },
+                    "line_info": {
+                        "type": "string"
+                    },
+                    "web_url": {
+                        "type": "string"
+                    },
+                    "file_exists": {
+                        "type": "boolean"
+                    },
+                    "launch_from": {
+                        "type": "string"
+                    },
+                    "current_fps": {
+                        "type": "long"
+                    },
+                    "package_name": {
+                        "type": "string"
+                    },
+                    "step": {
+                        "index": "not_analyzed",
+                        "type": "string"
+                    },
+                    "time": {
+                        "type": "double"
+                    },
+                    "serverErrorDesc": {
+                        "type": "string"
+                    },
+                    "request_id": {
+                        "type": "string"
+                    },
+                    "firstSegmentPath": {
+                        "type": "string"
+                    },
+                    "response_data": {
+                        "type": "string"
+                    },
+                    "pre_main": {
+                        "type": "long"
+                    },
+                    "v31_article": {
+                        "type": "string"
+                    },
+                    "block_duration": {
+                        "type": "long"
+                    },
+                    "netWorkSpeed": {
+                        "type": "long"
+                    },
+                    "upload_retry_count": {
+                        "type": "long"
+                    },
+                    "Vpwp-Key": {
+                        "type": "string"
+                    },
+                    "playURI": {
+                        "type": "string"
+                    },
+                    "type": {
+                        "type": "long"
+                    },
+                    "audio_durations": {
+                        "type": "string"
+                    },
+                    "playURL": {
+                        "type": "string"
+                    },
+                    "playUrl": {
+                        "index": "not_analyzed",
+                        "type": "string"
+                    },
+                    "event_type": {
+                        "type": "string"
+                    },
+                    "music_volume": {
+                        "type": "long"
+                    },
+                    "live_patch": {
+                        "type": "string"
+                    },
+                    "error_desc": {
+                        "type": "string"
+                    },
+                    "iesve_composition_time": {
+                        "type": "string"
+                    },
+                    "reverseFileSize": {
+                        "type": "long"
+                    },
+                    "download_status": {
+                        "type": "long"
+                    },
+                    "download_url": {
+                        "type": "string"
+                    },
+                    "timing_remotePort": {
+                        "type": "long"
+                    },
+                    "plugin_status": {
+                        "type": "long"
+                    },
+                    "v38_category_meta": {
+                        "type": "string"
+                    },
+                    "new_sdk": {
+                        "type": "boolean"
+                    },
+                    "is_local": {
+                        "type": "boolean"
+                    },
+                    "phase": {
+                        "type": "string"
+                    },
+                    "errorDesc": {
+                        "index": "not_analyzed",
+                        "type": "string"
+                    },
+                    "aweme_patch": {
+                        "type": "string"
+                    },
+                    "gesture_duration": {
+                        "type": "long"
+                    },
+                    "water_encode_time": {
+                        "type": "long"
+                    },
+                    "gift_id": {
+                        "type": "long"
+                    },
+                    "iesve_record_camera_frame_rate": {
+                        "type": "string"
+                    },
+                    "output_file": {
+                        "type": "string"
+                    },
+                    "invalid_cookie": {
+                        "type": "string"
+                    },
+                    "request_url": {
+                        "type": "string"
+                    },
+                    "app_video_uri": {
+                        "type": "string"
+                    },
+                    "inputFileSize": {
+                        "type": "long"
+                    },
+                    "ad_id": {
+                        "type": "long"
+                    },
+                    "v30_detail": {
+                        "type": "string"
+                    },
+                    "app_video_id": {
+                        "type": "string"
+                    },
+                    "play_error": {
+                        "index": "not_analyzed",
+                        "type": "string"
+                    },
+                    "music_id": {
+                        "type": "string"
+                    },
+                    "timing_receive": {
+                        "type": "long"
+                    },
+                    "upload_speed": {
+                        "type": "double"
+                    },
+                    "log": {
+                        "type": "string"
+                    },
+                    "fromDraft": {
+                        "type": "string"
+                    },
+                    "playUrlIsLowBr": {
+                        "type": "boolean"
+                    },
+                    "filesize": {
+                        "type": "long"
+                    },
+                    "log_type": {
+                        "index": "not_analyzed",
+                        "type": "string"
+                    },
+                    "mOpenUrl": {
+                        "type": "string"
+                    },
+                    "timing_totalSendBytes": {
+                        "type": "long"
+                    },
+                    "record_hard_encode": {
+                        "type": "string"
+                    },
+                    "happened": {
+                        "type": "string"
+                    },
+                    "errorMsg": {
+                        "type": "string"
+                    },
+                    "filter": {
+                        "type": "string"
+                    },
+                    "network_connected": {
+                        "type": "boolean"
+                    },
+                    "width": {
+                        "type": "string"
+                    },
+                    "exists": {
+                        "type": "string"
+                    },
+                    "cache_path": {
+                        "type": "string"
+                    },
+                    "msg": {
+                        "type": "string"
+                    },
+                    "timing_dns": {
+                        "type": "long"
+                    },
+                    "parse_data_duration": {
+                        "type": "long"
+                    },
+                    "status_value": {
+                        "type": "long"
+                    },
+                    "errorCode": {
+                        "type": "long"
+                    },
+                    "uuid": {
+                        "type": "string"
+                    },
+                    "errorExtraInfo": {
+                        "type": "string"
+                    },
+                    "hit": {
+                        "type": "long"
+                    },
+                    "remote_ip": {
+                        "type": "string"
+                    },
+                    "screen_height": {
+                        "type": "string"
+                    },
+                    "install_id": {
+                        "type": "string"
+                    },
+                    "video_durations": {
+                        "type": "string"
+                    },
+                    "from": {
+                        "type": "string"
+                    },
+                    "before_PostLaunch": {
+                        "type": "long"
+                    },
+                    "timing_isCached": {
+                        "type": "boolean"
+                    },
+                    "progress_value": {
+                        "type": "long"
+                    },
+                    "videoFilePath_SIZE": {
+                        "type": "long"
+                    },
+                    "netType": {
+                        "type": "string"
+                    },
+                    "errorUserInfo": {
+                        "type": "string"
+                    },
+                    "app_time": {
+                        "type": "double"
+                    },
+                    "is_auto": {
+                        "type": "long"
+                    },
+                    "effects": {
+                        "type": "string"
+                    },
+                    "page_flag": {
+                        "type": "long"
+                    },
+                    "recycleCount": {
+                        "type": "long"
+                    },
+                    "fileSize": {
+                        "type": "long"
+                    },
+                    "networkQuality": {
+                        "type": "string"
+                    },
+                    "publish_retry_count": {
+                        "type": "long"
+                    },
+                    "effect": {
+                        "type": "string"
+                    },
+                    "event_name": {
+                        "type": "string"
+                    },
+                    "timing_proxy": {
+                        "type": "long"
+                    },
+                    "processNum": {
+                        "type": "long"
+                    },
+                    "activation_code": {
+                        "type": "string"
+                    },
+                    "Content-Range": {
+                        "type": "string"
+                    },
+                    "error": {
+                        "type": "string"
+                    },
+                    "is_success": {
+                        "type": "long"
+                    },
+                    "uploadDuration": {
+                        "type": "long"
+                    },
+                    "iesve_record_preview_frame_rate": {
+                        "type": "string"
+                    },
+                    "platform": {
+                        "type": "string"
+                    },
+                    "network": {
+                        "type": "long"
+                    },
+                    "event_belong": {
+                        "type": "string"
+                    },
+                    "iesve_video_decode_average_time": {
+                        "type": "string"
+                    },
+                    "request_time": {
+                        "type": "long"
+                    },
+                    "background_count": {
+                        "type": "long"
+                    },
+                    "value": {
+                        "properties": {
+                            "app_language": {
+                                "type": "string"
+                            },
+                            "handle_time": {
+                                "type": "long"
+                            },
+                            "has_opt": {
+                                "type": "long"
+                            },
+                            "errorDomain": {
+                                "type": "string"
+                            },
+                            "own": {
+                                "type": "long"
+                            },
+                            "local_cache_duration": {
+                                "type": "long"
+                            },
+                            "local_duration": {
+                                "type": "long"
+                            },
+                            "errorCode": {
+                                "type": "long"
+                            },
+                            "pid": {
+                                "type": "long"
+                            },
+                            "error": {
+                                "type": "long"
+                            },
+                            "playURI": {
+                                "type": "string"
+                            },
+                            "roleType": {
+                                "type": "string"
+                            },
+                            "URL": {
+                                "type": "string"
+                            },
+                            "average_duration": {
+                                "type": "long"
+                            },
+                            "platform": {
+                                "type": "string"
+                            },
+                            "playURL": {
+                                "type": "string"
+                            },
+                            "playUrl": {
+                                "type": "string"
+                            },
+                            "duration": {
+                                "type": "long"
+                            },
+                            "total": {
+                                "type": "long"
+                            },
+                            "draft_context_id": {
+                                "type": "string"
+                            },
+                            "error_desc": {
+                                "type": "string"
+                            },
+                            "lineType": {
+                                "type": "string"
+                            },
+                            "playerType": {
+                                "type": "string"
+                            },
+                            "value": {
+                                "type": "long"
+                            },
+                            "over": {
+                                "type": "long"
+                            },
+                            "errorDesc": {
+                                "type": "string"
+                            },
+                            "errorUserInfo": {
+                                "type": "string"
+                            },
+                            "gift_id": {
+                                "type": "long"
+                            },
+                            "mediaType": {
+                                "type": "string"
+                            },
+                            "userId": {
+                                "type": "string"
+                            },
+                            "openURL": {
+                                "type": "string"
+                            },
+                            "aweme_id": {
+                                "type": "string"
+                            },
+                            "service": {
+                                "type": "string"
+                            },
+                            "success": {
+                                "type": "long"
+                            },
+                            "msg_type": {
+                                "type": "string"
+                            },
+                            "error_code": {
+                                "type": "string"
+                            },
+                            "enter_room_type": {
+                                "type": "string"
+                            },
+                            "dup": {
+                                "type": "long"
+                            },
+                            "retryIndex": {
+                                "type": "long"
+                            },
+                            "status": {
+                                "type": "long"
+                            }
+                        }
+                    },
+                    "sticker_id": {
+                        "type": "string"
+                    },
+                    "update_list_meta": {
+                        "type": "string"
+                    },
+                    "before_IESTaskExecutePhaseDuringLaunch": {
+                        "type": "long"
+                    },
+                    "item_id": {
+                        "type": "long"
+                    },
+                    "original_error_desc": {
+                        "type": "string"
+                    },
+                    "abtestmodel": {
+                        "type": "string"
+                    },
+                    "need_encode": {
+                        "type": "boolean"
+                    },
+                    "filePath": {
+                        "type": "string"
+                    },
+                    "visible_count": {
+                        "type": "long"
+                    },
+                    "timing_remoteIP": {
+                        "type": "string"
+                    },
+                    "intent": {
+                        "type": "string"
+                    },
+                    "iesve_record_video_encode_type": {
+                        "type": "string"
+                    },
+                    "video_type": {
+                        "type": "long"
+                    },
+                    "traceCode": {
+                        "type": "string"
+                    },
+                    "GT16": {
+                        "type": "long"
+                    },
+                    "Vpwp-Type": {
+                        "type": "string"
+                    },
+                    "srvIp": {
+                        "type": "string"
+                    },
+                    "response": {
+                        "type": "string"
+                    },
+                    "challenge": {
+                        "type": "string"
+                    },
+                    "cache_hit_size": {
+                        "type": "long"
+                    },
+                    "category": {
+                        "type": "string"
+                    },
+                    "timing_totalReceivedBytes": {
+                        "type": "long"
+                    },
+                    "video_id": {
+                        "type": "string"
+                    }
+                }
+            },
+            "isp": {
+                "index": "not_analyzed",
+                "type": "string"
+            },
+            "header_data": {
+                "properties": {
+                    "app_version": {
+                        "type": "string"
+                    },
+                    "channel": {
+                        "type": "string"
+                    },
+                    "build_serial": {
+                        "type": "string"
+                    },
+                    "language": {
+                        "type": "string"
+                    },
+                    "resolution": {
+                        "type": "string"
+                    },
+                    "update_version_code": {
+                        "type": "long"
+                    },
+                    "vid": {
+                        "type": "string"
+                    },
+                    "density_dpi": {
+                        "type": "long"
+                    },
+                    "cpu_abi": {
+                        "type": "string"
+                    },
+                    "install_id": {
+                        "type": "string"
+                    },
+                    "tz_offset": {
+                        "type": "long"
+                    },
+                    "mc": {
+                        "type": "string"
+                    },
+                    "`eribeZm矰灵": {
+                        "type": "string"
+                    },
+                    "not_request_sender": {
+                        "type": "long"
+                    },
+                    "package": {
+                        "type": "string"
+                    },
+                    "device_id": {
+                        "type": "string"
+                    },
+                    "aliyun_uuid": {
+                        "type": "string"
+                    },
+                    "mcc_mnc": {
+                        "type": "string"
+                    },
+                    "idfa": {
+                        "type": "string"
+                    },
+                    "version_code": {
+                        "type": "long"
+                    },
+                    "display_name": {
+                        "type": "string"
+                    },
+                    "release_build": {
+                        "type": "string"
+                    },
+                    "vendor_id": {
+                        "type": "string"
+                    },
+                    "region": {
+                        "type": "string"
+                    },
+                    "aid": {
+                        "type": "string"
+                    },
+                    "rom_version": {
+                        "type": "string"
+                    },
+                    "manifest_version_code": {
+                        "type": "long"
+                    },
+                    "access": {
+                        "type": "string"
+                    },
+                    "device_model": {
+                        "type": "string"
+                    },
+                    "timezone": {
+                        "type": "long"
+                    },
+                    "device_manufacturer": {
+                        "type": "string"
+                    },
+                    "openudid": {
+                        "type": "string"
+                    },
+                    "rom": {
+                        "type": "string"
+                    },
+                    "os_api": {
+                        "type": "long"
+                    },
+                    "tz_name": {
+                        "type": "string"
+                    },
+                    "is_jailbroken": {
+                        "type": "boolean"
+                    },
+                    "sdk_version": {
+                        "type": "long"
+                    },
+                    "udid": {
+                        "type": "string"
+                    },
+                    "user_agent": {
+                        "type": "string"
+                    },
+                    "`eribeZb矰灵": {
+                        "type": "string"
+                    },
+                    "os": {
+                        "type": "string"
+                    },
+                    "os_version": {
+                        "type": "string"
+                    },
+                    "serial_number": {
+                        "type": "string"
+                    },
+                    "display_density": {
+                        "type": "string"
+                    },
+                    "clientudid": {
+                        "type": "string"
+                    },
+                    "app_track": {
+                        "properties": {
+                            "openurl": {
+                                "type": "string"
+                            },
+                            "postdata": {
+                                "properties": {
+                                    "room_id": {
+                                        "type": "string"
+                                    },
+                                    "tt_from": {
+                                        "type": "string"
+                                    },
+                                    "utm_medium": {
+                                        "type": "string"
+                                    },
+                                    "medium": {
+                                        "type": "string"
+                                    },
+                                    "source": {
+                                        "type": "string"
+                                    },
+                                    "resolution": {
+                                        "type": "string"
+                                    },
+                                    "share_id": {
+                                        "type": "string"
+                                    },
+                                    "uid": {
+                                        "type": "string"
+                                    },
+                                    "search": {
+                                        "type": "string"
+                                    },
+                                    "reflow_page_uid": {
+                                        "type": "string"
+                                    },
+                                    "webid": {
+                                        "type": "string"
+                                    },
+                                    "__type__": {
+                                        "type": "string"
+                                    },
+                                    "user_id": {
+                                        "type": "string"
+                                    },
+                                    "campaign": {
+                                        "type": "string"
+                                    },
+                                    "header": {
+                                        "properties": {
+                                            "share_app_name": {
+                                                "type": "string"
+                                            },
+                                            "page_type": {
+                                                "type": "string"
+                                            },
+                                            "utm_campaign": {
+                                                "type": "string"
+                                            },
+                                            "parent_group_id": {
+                                                "type": "string"
+                                            },
+                                            "parent_rid": {
+                                                "type": "string"
+                                            },
+                                            "utm_medium": {
+                                                "type": "string"
+                                            },
+                                            "site_id": {
+                                                "type": "string"
+                                            },
+                                            "os_name": {
+                                                "type": "string"
+                                            },
+                                            "traffic_type": {
+                                                "type": "string"
+                                            },
+                                            "share_iid": {
+                                                "type": "string"
+                                            },
+                                            "wx_share_count": {
+                                                "type": "long"
+                                            },
+                                            "utm_source": {
+                                                "type": "string"
+                                            }
+                                        }
+                                    },
+                                    "keyword": {
+                                        "type": "string"
+                                    },
+                                    "reflow_page_gid": {
+                                        "type": "string"
+                                    },
+                                    "user": {
+                                        "properties": {
+                                            "user_type": {
+                                                "type": "long"
+                                            },
+                                            "user_id": {
+                                                "type": "string"
+                                            }
+                                        }
+                                    },
+                                    "adgroup": {
+                                        "type": "string"
+                                    },
+                                    "did": {
+                                        "type": "string"
+                                    },
+                                    "events": {
+                                        "properties": {
+                                            "time": {
+                                                "type": "long"
+                                            },
+                                            "event": {
+                                                "type": "string"
+                                            },
+                                            "params": {
+                                                "properties": {
+                                                    "distance": {
+                                                        "type": "long"
+                                                    },
+                                                    "group_id": {
+                                                        "type": "string"
+                                                    },
+                                                    "code_id": {
+                                                        "type": "string"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "utm_source": {
+                                        "type": "string"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "carrier": {
+                        "type": "string"
+                    },
+                    "device_brand": {
+                        "type": "string"
+                    },
+                    "push_sdk": {
+                        "type": "long"
+                    },
+                    "sim_serial_number": {
+                        "properties": {
+                            "sim_serial_number": {
+                                "type": "string"
+                            }
+                        }
+                    },
+                    "sig_hash": {
+                        "type": "string"
+                    },
+                    "appkey": {
+                        "type": "string"
+                    },
+                    "sim_region": {
+                        "type": "string"
+                    }
+                }
+            },
+            "install_id": {
+                "type": "long"
+            },
+            "timing_receivedResponseContentLength": {
+                "type": "long"
+            },
+            "timing_remotePort": {
+                "type": "long"
+            },
+            "client_ip": {
+                "index": "not_analyzed",
+                "type": "string"
+            },
+            "tag": {
+                "type": "string"
+            },
+            "data_status": {
+                "type": "long"
+            },
+            "timing_isCached": {
+                "type": "long"
+            },
+            "timing_ssl": {
+                "type": "double"
+            },
+            "device_id": {
+                "type": "long"
+            },
+            "count": {
+                "type": "long"
+            },
+            "timing_wait": {
+                "type": "double"
+            },
+            "product_name": {
+                "index": "not_analyzed",
+                "type": "string"
+            },
+            "head_channel": {
+                "index": "not_analyzed",
+                "type": "string"
+            },
+            "user_id": {
+                "type": "long"
+            },
+            "timing_total": {
+                "type": "double"
+            },
+            "header": {
+                "index": "not_analyzed",
+                "type": "string"
+            },
+            "timing_receive": {
+                "type": "double"
+            },
+            "timing_proxy": {
+                "type": "double"
+            },
+            "aid": {
+                "type": "long"
+            },
+            "timing_isSocketReused": {
+                "type": "long"
+            },
+            "timing_send": {
+                "type": "double"
+            },
+            "status": {
+                "type": "integer"
+            },
+            "client_city": {
+                "index": "not_analyzed",
+                "type": "string"
+            },
+            "head_os": {
+                "index": "not_analyzed",
+                "type": "string"
+            },
+            "cookies": {
+                "index": "not_analyzed",
+                "type": "string"
+            },
+            "data_netloc": {
+                "index": "not_analyzed",
+                "type": "string"
+            },
+            "duration": {
+                "type": "long"
+            },
+            "log_type": {
+                "index": "not_analyzed",
+                "type": "string"
+            },
+            "unix_timestamp": {
+                "type": "long"
+            },
+            "timestamp": {
+                "type": "string"
+            },
+            "timing_totalSendBytes": {
+                "type": "long"
+            },
+            "build_version": {
+                "type": "string"
+            },
+            "duration_type": {
+                "index": "not_analyzed",
+                "type": "string"
+            },
+            "os_version": {
+                "index": "not_analyzed",
+                "type": "string"
+            },
+            "timing_isFromProxy": {
+                "type": "long"
+            },
+            "head_app_version": {
+                "index": "not_analyzed",
+                "type": "string"
+            },
+            "data_protocol": {
+                "index": "not_analyzed",
+                "type": "string"
+            },
+            "client_province": {
+                "index": "not_analyzed",
+                "type": "string"
+            },
+            "data_uri": {
+                "index": "not_analyzed",
+                "type": "string"
+            },
+            "@timestamp": {
+                "format": "strict_date_optional_time||epoch_millis",
+                "type": "date"
+            },
+            "urlpath": {
+                "type": "string"
+            },
+            "service": {
+                "index": "not_analyzed",
+                "type": "string"
+            },
+            "client_country": {
+                "type": "string"
+            },
+            "api_time": {
+                "format": "epoch_second",
+                "type": "date"
+            },
+            "cdn_name": {
+                "index": "not_analyzed",
+                "type": "string"
+            },
+            "timing_connect": {
+                "type": "double"
+            },
+            "timing_totalReceivedBytes": {
+                "type": "long"
+            },
+            "head_access": {
+                "index": "not_analyzed",
+                "type": "string"
+            }
+        }
+    },
+    "monitor_performance_log": {
+        "_all": {
+            "enabled": false
+        },
+        "date_detection": false,
+        "properties": {
+            "item_value_interval": {
+                "index": "not_analyzed",
+                "type": "string"
+            },
+            "client_city": {
+                "index": "not_analyzed",
+                "type": "string"
+            },
+            "app_version": {
+                "index": "not_analyzed",
+                "type": "string"
+            },
+            "device_model": {
+                "index": "not_analyzed",
+                "type": "string"
+            },
+            "item_type": {
+                "index": "not_analyzed",
+                "type": "string"
+            },
+            "isp": {
+                "index": "not_analyzed",
+                "type": "string"
+            },
+            "item_key": {
+                "index": "not_analyzed",
+                "type": "string"
+            },
+            "item_value": {
+                "type": "double"
+            },
+            "header_data": {
+                "properties": {
+                    "app_version": {
+                        "type": "string"
+                    },
+                    "channel": {
+                        "type": "string"
+                    },
+                    "build_serial": {
+                        "type": "string"
+                    },
+                    "language": {
+                        "type": "string"
+                    },
+                    "resolution": {
+                        "type": "string"
+                    },
+                    "update_version_code": {
+                        "type": "long"
+                    },
+                    "vid": {
+                        "type": "string"
+                    },
+                    "density_dpi": {
+                        "type": "long"
+                    },
+                    "cpu_abi": {
+                        "type": "string"
+                    },
+                    "install_id": {
+                        "type": "string"
+                    },
+                    "tz_offset": {
+                        "type": "long"
+                    },
+                    "mc": {
+                        "type": "string"
+                    },
+                    "`eribeZm矰灵": {
+                        "type": "string"
+                    },
+                    "not_request_sender": {
+                        "type": "long"
+                    },
+                    "package": {
+                        "type": "string"
+                    },
+                    "device_id": {
+                        "type": "string"
+                    },
+                    "aliyun_uuid": {
+                        "type": "string"
+                    },
+                    "mcc_mnc": {
+                        "type": "string"
+                    },
+                    "idfa": {
+                        "type": "string"
+                    },
+                    "version_code": {
+                        "type": "long"
+                    },
+                    "display_name": {
+                        "type": "string"
+                    },
+                    "release_build": {
+                        "type": "string"
+                    },
+                    "vendor_id": {
+                        "type": "string"
+                    },
+                    "region": {
+                        "type": "string"
+                    },
+                    "aid": {
+                        "type": "string"
+                    },
+                    "rom_version": {
+                        "type": "string"
+                    },
+                    "manifest_version_code": {
+                        "type": "long"
+                    },
+                    "access": {
+                        "type": "string"
+                    },
+                    "device_model": {
+                        "type": "string"
+                    },
+                    "timezone": {
+                        "type": "long"
+                    },
+                    "device_manufacturer": {
+                        "type": "string"
+                    },
+                    "openudid": {
+                        "type": "string"
+                    },
+                    "rom": {
+                        "type": "string"
+                    },
+                    "os_api": {
+                        "type": "long"
+                    },
+                    "tz_name": {
+                        "type": "string"
+                    },
+                    "is_jailbroken": {
+                        "type": "boolean"
+                    },
+                    "sdk_version": {
+                        "type": "long"
+                    },
+                    "udid": {
+                        "type": "string"
+                    },
+                    "user_agent": {
+                        "type": "string"
+                    },
+                    "`eribeZb矰灵": {
+                        "type": "string"
+                    },
+                    "os": {
+                        "type": "string"
+                    },
+                    "os_version": {
+                        "type": "string"
+                    },
+                    "serial_number": {
+                        "type": "string"
+                    },
+                    "display_density": {
+                        "type": "string"
+                    },
+                    "clientudid": {
+                        "type": "string"
+                    },
+                    "app_track": {
+                        "properties": {
+                            "openurl": {
+                                "type": "string"
+                            },
+                            "postdata": {
+                                "properties": {
+                                    "room_id": {
+                                        "type": "string"
+                                    },
+                                    "tt_from": {
+                                        "type": "string"
+                                    },
+                                    "utm_medium": {
+                                        "type": "string"
+                                    },
+                                    "medium": {
+                                        "type": "string"
+                                    },
+                                    "source": {
+                                        "type": "string"
+                                    },
+                                    "resolution": {
+                                        "type": "string"
+                                    },
+                                    "share_id": {
+                                        "type": "string"
+                                    },
+                                    "uid": {
+                                        "type": "string"
+                                    },
+                                    "search": {
+                                        "type": "string"
+                                    },
+                                    "reflow_page_uid": {
+                                        "type": "string"
+                                    },
+                                    "webid": {
+                                        "type": "string"
+                                    },
+                                    "__type__": {
+                                        "type": "string"
+                                    },
+                                    "user_id": {
+                                        "type": "string"
+                                    },
+                                    "campaign": {
+                                        "type": "string"
+                                    },
+                                    "header": {
+                                        "properties": {
+                                            "share_app_name": {
+                                                "type": "string"
+                                            },
+                                            "page_type": {
+                                                "type": "string"
+                                            },
+                                            "utm_campaign": {
+                                                "type": "string"
+                                            },
+                                            "parent_group_id": {
+                                                "type": "string"
+                                            },
+                                            "parent_rid": {
+                                                "type": "string"
+                                            },
+                                            "utm_medium": {
+                                                "type": "string"
+                                            },
+                                            "site_id": {
+                                                "type": "string"
+                                            },
+                                            "os_name": {
+                                                "type": "string"
+                                            },
+                                            "traffic_type": {
+                                                "type": "string"
+                                            },
+                                            "share_iid": {
+                                                "type": "string"
+                                            },
+                                            "wx_share_count": {
+                                                "type": "long"
+                                            },
+                                            "utm_source": {
+                                                "type": "string"
+                                            }
+                                        }
+                                    },
+                                    "keyword": {
+                                        "type": "string"
+                                    },
+                                    "reflow_page_gid": {
+                                        "type": "string"
+                                    },
+                                    "user": {
+                                        "properties": {
+                                            "user_type": {
+                                                "type": "long"
+                                            },
+                                            "user_id": {
+                                                "type": "string"
+                                            }
+                                        }
+                                    },
+                                    "adgroup": {
+                                        "type": "string"
+                                    },
+                                    "did": {
+                                        "type": "string"
+                                    },
+                                    "events": {
+                                        "properties": {
+                                            "time": {
+                                                "type": "long"
+                                            },
+                                            "event": {
+                                                "type": "string"
+                                            },
+                                            "params": {
+                                                "properties": {
+                                                    "distance": {
+                                                        "type": "long"
+                                                    },
+                                                    "group_id": {
+                                                        "type": "string"
+                                                    },
+                                                    "code_id": {
+                                                        "type": "string"
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    },
+                                    "utm_source": {
+                                        "type": "string"
+                                    }
+                                }
+                            }
+                        }
+                    },
+                    "carrier": {
+                        "type": "string"
+                    },
+                    "device_brand": {
+                        "type": "string"
+                    },
+                    "push_sdk": {
+                        "type": "long"
+                    },
+                    "sim_serial_number": {
+                        "properties": {
+                            "sim_serial_number": {
+                                "type": "string"
+                            }
+                        }
+                    },
+                    "sig_hash": {
+                        "type": "string"
+                    },
+                    "appkey": {
+                        "type": "string"
+                    },
+                    "sim_region": {
+                        "type": "string"
+                    }
+                }
+            },
+            "install_id": {
+                "type": "long"
+            },
+            "client_ip": {
+                "index": "not_analyzed",
+                "type": "string"
+            },
+            "tag": {
+                "type": "string"
+            },
+            "timestamp": {
+                "type": "string"
+            },
+            "device_id": {
+                "type": "long"
+            },
+            "build_version": {
+                "type": "string"
+            },
+            "os_version": {
+                "index": "not_analyzed",
+                "type": "string"
+            },
+            "product_name": {
+                "index": "not_analyzed",
+                "type": "string"
+            },
+            "client_province": {
+                "index": "not_analyzed",
+                "type": "string"
+            },
+            "@timestamp": {
+                "format": "strict_date_optional_time||epoch_millis",
+                "type": "date"
+            },
+            "user_id": {
+                "type": "long"
+            },
+            "service": {
+                "index": "not_analyzed",
+                "type": "string"
+            },
+            "os_type": {
+                "index": "not_analyzed",
+                "type": "string"
+            },
+            "client_country": {
+                "type": "string"
+            },
+            "header": {
+                "index": "not_analyzed",
+                "type": "string"
+            },
+            "api_time": {
+                "format": "epoch_second",
+                "type": "date"
+            },
+            "network_type": {
+                "type": "string"
+            },
+            "aid": {
+                "type": "long"
+            },
+            "status": {
+                "type": "integer"
+            }
+        }
+    }
+}
