@@ -9,8 +9,8 @@
 + 启动Django工程
 > python3 manage.py runserver
 
-+ 创建app
-    1. 新建 
++ 创建新app
+    1. 新建 
     > python3 manage.py startapp \<app-name>
     2. 注册app(settings.py)
     ``` python
